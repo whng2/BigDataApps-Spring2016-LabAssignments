@@ -17,8 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.11/resource_managed/main" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.11/resource_managed/test" type="java-test-resource" />
-      <excludeFolder url="file://$MODULE_DIR$/../../target/resolution-cache" />
-      <excludeFolder url="file://$MODULE_DIR$/../../target/streams" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -194,8 +193,8 @@
         <CLASSES />
         <JAVADOC />
         <SOURCES>
-          <root url="jar://$USER_HOME$/.ivy2/cache/com.esotericsoftware.reflectasm/reflectasm/srcs/reflectasm-1.07-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.avro/avro-mapred/srcs/avro-mapred-1.7.7-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.esotericsoftware.reflectasm/reflectasm/srcs/reflectasm-1.07-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.mesos/mesos/srcs/mesos-0.21.1-sources.jar!/" />
         </SOURCES>
       </library>

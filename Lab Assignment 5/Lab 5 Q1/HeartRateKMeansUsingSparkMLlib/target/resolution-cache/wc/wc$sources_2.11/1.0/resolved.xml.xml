@@ -4,7 +4,7 @@
 		module="wc$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160224181009"
+		publication="20160225154544"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

@@ -27,6 +27,9 @@ object HeartRateKMeans {
       val WSSSE = clusters.computeCost(parsedData)
       println("Within Set Sum of Squared Errors = " + WSSSE)
 
+
+
+
       // Save and load model
       clusters.save(sc, "myModelPath")
       val sameModel = KMeansModel.load(sc, "myModelPath")
@@ -43,6 +46,8 @@ object HeartRateKMeans {
 
         s += center + "\n"}
       }
+
+
 
       SocketClient.sendCommandToRobot(s)
     }
