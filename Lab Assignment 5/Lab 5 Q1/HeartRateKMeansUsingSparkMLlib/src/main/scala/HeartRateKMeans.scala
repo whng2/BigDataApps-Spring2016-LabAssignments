@@ -41,6 +41,9 @@ object HeartRateKMeans {
 
       sc.stop()
 
+
+
+
       var s: String = "Final Centers\n"
       sameModel.clusterCenters.foreach { case (center) => {
 

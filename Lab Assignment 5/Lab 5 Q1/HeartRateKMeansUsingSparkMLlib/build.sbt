@@ -15,7 +15,6 @@ libraryDependencies ++= Seq(
   "org.eclipse.jetty"  % "jetty-client" % "8.1.14.v20131031",
   "com.typesafe.play" % "play-json_2.10" % "2.2.1",
   "org.elasticsearch" % "elasticsearch-hadoop-mr" % "2.0.0.RC1",
-  "net.sf.opencsv" % "opencsv" % "2.0",
   "mysql" % "mysql-connector-java" % "5.1.31",
   "com.github.scopt" %% "scopt" % "3.2.0",
   "org.scalatest" %% "scalatest" % "2.2.1" % "test"
